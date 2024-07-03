@@ -1,0 +1,5 @@
+# DocQuery_AI
+This repository is about an AI chatbot that answers questions to user queries about multiple PDF files they upload
+DocQuery AI was inspired by the need for a tool that makes finding information in PDFs easier. We wanted to create something that could quickly analyze multiple PDF documents and provide clear and human friendly answers. Our goal was to use AI to simplify how people interact with complex and lengthy PDF documents.
+DocQuery AI is a sophisticated chatbot designed to analyze multiple PDF documents simultaneously. Users can upload multiple PDF files, and the AI extracts, processes, and embeds the text. It then allows users to ask questions related to the content of these documents, providing precise answers in real-time.
+We built DocQuery AI using Python, leveraging Streamlit for the web interface. A key component of our solution was the integration of Google Generative AI for text embeddings, which allowed us to efficiently process and analyze text from multiple PDF documents. Additionally, we utilized FAISS, a vector store, for indexing and retrieval, ensuring fast and efficient document search.
